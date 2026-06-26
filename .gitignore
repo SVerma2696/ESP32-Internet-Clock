@@ -1,0 +1,20 @@
+#ESP-IDF Build & Configuration (CRITICAL FOR SAFETY - Hides Wi-Fi Credentials)
+
+build/
+sdkconfig
+sdkconfig.old
+
+#Large Media Files (Prevents GitHub's 100MB file size limit error)
+
+*.mp4
+*.mov
+*.avi
+
+#VS Code local settings
+
+.vscode/
+
+#Standard OS files
+
+.DS_Store
+Thumbs.db

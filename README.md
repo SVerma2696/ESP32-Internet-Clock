@@ -37,7 +37,7 @@ ESP32_Clock/
 ### 1. Clone this repository
 
 ```
-git clone [https://github.com/YourUsername/ESP32-Internet-Clock.git](https://github.com/YourUsername/ESP32-Internet-Clock.git)
+git clone [https://github.com/SVerma2696/ESP32-Internet-Clock.git](https://github.com/SVerma2696/ESP32-Internet-Clock.git)
 cd ESP32-Internet-Clock
 ```
 
@@ -57,7 +57,7 @@ Navigate to **Clock Wi-Fi Configuration** and enter your SSID and Password.
 ```
 idf.py -p COM5 flash monitor
 ```
-
+*(Note: Change `COM5` to match your ESP32's actual serial port).*
 
 ---
 
@@ -92,13 +92,17 @@ OLED SDA -> ESP32 GPIO 21
 * Basic **network programming** (Wi-Fi STA mode & SNTP)
 * **Secure configuration** using Kconfig to hide sensitive data
 
+---
+
 ## 🔧 Requirements
 
 * ELEGOO ESP-32 Super Starter Kit (or equivalent ESP32 board)
 * 0.96" I2C OLED Display Module
 * Visual Studio Code with the **ESP-IDF Extension** (v6.0.1+)
 
-UML Diagram:
+---
+
+## UML Diagram:
 
 ```
 classDiagram
